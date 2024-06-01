@@ -1,0 +1,32 @@
+.cart-container {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+  }
+  
+  .cart-items {
+    padding: 10px;
+  }
+  
+  .cart-item {
+    margin-bottom: 5px;
+  }
+  
+  .cart-item button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .cart-item button:hover {
+    background-color: #c82333;
+  }
+  
